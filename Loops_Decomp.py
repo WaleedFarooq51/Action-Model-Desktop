@@ -16,11 +16,11 @@ import json
 import re
 import time
 
-openai_client = OpenAI(api_key= 'sk-proj-NQBeE2RkXWcGIsOvjssMT3BlbkFJKZlzrxKv6506qa2d68UB')    #Asaad's Key
+openai_client = OpenAI(api_key= 'OPEN_AI_API_KEY')    #Asaad's Key
 
-openai_client_1 = OpenAI(api_key= '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')  #GPT4-o's Key
+openai_client_1 = OpenAI(api_key= 'OPEN_AI_API_KEY')  #GPT4-o's Key
 
-groq_llama3_client = Groq(api_key='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')
+groq_llama3_client = Groq(api_key='GROQ_API_KEY')
 
 ## Task Decomposer
 def task_decomposer(user_query):
