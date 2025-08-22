@@ -16,9 +16,9 @@ import json
 import re
 import time
 
-openai_client = OpenAI(api_key= 'OPEN_AI_API_KEY')    #Asaad's Key
+openai_client = OpenAI(api_key= 'OPEN_AI_API_KEY')    
 
-openai_client_1 = OpenAI(api_key= 'OPEN_AI_API_KEY')  #GPT4-o's Key
+openai_client_1 = OpenAI(api_key= 'OPEN_AI_API_KEY')  
 
 groq_llama3_client = Groq(api_key='GROQ_API_KEY')
 
