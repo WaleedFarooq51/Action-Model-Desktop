@@ -8,4 +8,4 @@ Clone the repo in your working directory or download the Zip folder and extract 
 
 Open Powershell/cmd
 
-Run the Loops_Decomp.py file
+Run the Task_Decomposer.py file
